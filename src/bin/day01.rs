@@ -19,7 +19,7 @@ fn parse_input(filename: &str) -> (Vec<u32>, Vec<u32>) {
 }
 
 fn main() {
-    println!("Day 1 - Part 1");
+    println!("Day 1 - Parts 1 and 2");
 
     let (col1, col2) = parse_input("src/bin/data/input_1.txt");
     part_one(&col1, &col2);
